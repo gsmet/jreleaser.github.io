@@ -668,18 +668,18 @@ The following key/values may be defined as properties or as environment variable
 | JRELEASER_GITEA_PASSWORD         | password of a shared Gitea instance (deploy, upload, release)
 |===
 
-=== GitLab
+=== GitHub
 
 [%header, cols="<1,<1", width="100%"]
 |===
 | Key                                | Description
-| JRELEASER_GITHUB_${NAME}_URL       | url matching named Github instance (deploy)
-| JRELEASER_GITHUB_${NAME}_HOST      | host matching named Github instance
-| JRELEASER_GITHUB_${NAME}_TOKEN     | token matching named Github instance
-| JRELEASER_GITHUB_${NAME}_PASSWORD  | password matching the named Github instance
-| JRELEASER_GITHUB_HOST              | host of a shared Github instance (deploy, upload, release)
-| JRELEASER_GITHUB_TOKEN             | token of a shared Github instance (deploy, upload, release)
-| JRELEASER_GITHUB_PASSWORD          | password of a shared Github instance (deploy, upload, release)
+| JRELEASER_GITHUB_${NAME}_URL       | url matching named GitHub instance (deploy)
+| JRELEASER_GITHUB_${NAME}_HOST      | host matching named GitHub instance
+| JRELEASER_GITHUB_${NAME}_TOKEN     | token matching named GitHub instance
+| JRELEASER_GITHUB_${NAME}_PASSWORD  | password matching the named GitHub instance
+| JRELEASER_GITHUB_HOST              | host of a shared GitHub instance (deploy, upload, release)
+| JRELEASER_GITHUB_TOKEN             | token of a shared GitHub instance (deploy, upload, release)
+| JRELEASER_GITHUB_PASSWORD          | password of a shared GitHub instance (deploy, upload, release)
 |===
 
 
